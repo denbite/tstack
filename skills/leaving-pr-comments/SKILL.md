@@ -15,8 +15,7 @@ note callout:
 Actual comment starts here.
 ```
 
-Use the verified public name of the model that wrote the comment, and the
-user's name or GitHub login.
+Use the verified public name of the model that wrote the comment, and the user's GitHub login.
 
 If the harness does not expose a model name, use the harness name. Do not guess.
 
