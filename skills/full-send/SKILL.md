@@ -88,8 +88,7 @@ Full confidence means all of these are true on the latest commit:
 - Review bots have finished, and each finding is fixed or dismissed with a
   written reason.
 - No human review still requests changes.
-- The branch is up to date with the default branch, and GitHub reports it as
-  mergeable.
+- GitHub reports the PR as mergeable, even if the branch is behind the default branch.
 
 Merge with the method the repo uses. Check the allowed methods and recent merged
 PRs. If the repo uses a merge queue or auto-merge, stay until GitHub reports the
