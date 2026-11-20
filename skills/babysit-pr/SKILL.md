@@ -109,6 +109,8 @@ If nothing has changed, stay quiet rather than posting filler comments. Stop
 when `pr-wait` exits 0, or in T3 Code when the merge gate passes on the latest
 head. Merge only when the user explicitly requested it;
 otherwise report that the PR is ready. Right before a merge, run `git fetch` and
-check the PR again. Never merge when it is BEHIND or DIRTY, or when base commits
-that landed after the last green run touch this PR's files. Rebase, push, and
+check the PR again. Never merge when it is BEHIND or DIRTY. Rebase, push, and 
 wait for green again.
+
+Merge when checks are green on the current head and GitHub reports the merge
+state as CLEAN, even if the default branch has moved ahead.
